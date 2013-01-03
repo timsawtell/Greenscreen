@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036178A515C84F8300C838E8 /* GSGreenScreenEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 036178A115C84F8300C838E8 /* GSGreenScreenEffect.m */; };
+		036178A615C84F8300C838E8 /* greenScreen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 036178A315C84F8300C838E8 /* greenScreen.fsh */; };
+		036178A715C84F8300C838E8 /* greenScreen.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 036178A415C84F8300C838E8 /* greenScreen.vsh */; };
+		036178AB15C8511100C838E8 /* UtilityEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 036178AA15C8511100C838E8 /* UtilityEffect.m */; };
+		03AF043C15C84C230061A0D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF043B15C84C230061A0D7 /* UIKit.framework */; };
+		03AF043E15C84C230061A0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF043D15C84C230061A0D7 /* Foundation.framework */; };
+		03AF044015C84C230061A0D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF043F15C84C230061A0D7 /* CoreGraphics.framework */; };
+		03AF044615C84C230061A0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AF044415C84C230061A0D7 /* InfoPlist.strings */; };
+		03AF044815C84C230061A0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF044715C84C230061A0D7 /* main.m */; };
+		03AF044C15C84C230061A0D7 /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF044B15C84C230061A0D7 /* GSAppDelegate.m */; };
+		03AF044F15C84C230061A0D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF044D15C84C230061A0D7 /* MainStoryboard_iPhone.storyboard */; };
+		03AF045215C84C230061A0D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF045015C84C230061A0D7 /* MainStoryboard_iPad.storyboard */; };
+		03AF045515C84C230061A0D7 /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF045415C84C230061A0D7 /* GSViewController.m */; };
+		03AF045D15C84C760061A0D7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF045B15C84C760061A0D7 /* GLKit.framework */; };
+		03AF045E15C84C760061A0D7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF045C15C84C760061A0D7 /* OpenGLES.framework */; };
+		03AF046115C84CD10061A0D7 /* GSVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF046015C84CD10061A0D7 /* GSVideoProcessor.m */; };
+		03AF046415C84CF70061A0D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046215C84CF70061A0D7 /* AVFoundation.framework */; };
+		03AF046515C84CF70061A0D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046315C84CF70061A0D7 /* CoreMotion.framework */; };
+		03AF046715C84D190061A0D7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046615C84D190061A0D7 /* CoreVideo.framework */; };
+		03AF046915C84D340061A0D7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046815C84D340061A0D7 /* AssetsLibrary.framework */; };
+		03AF046B15C84D690061A0D7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046A15C84D690061A0D7 /* CoreMedia.framework */; };
+		03AF046D15C84D8C0061A0D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046C15C84D8C0061A0D7 /* QuartzCore.framework */; };
+		03AF046F15C84DA20061A0D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AF046E15C84DA20061A0D7 /* MobileCoreServices.framework */; };
+		DDDE4A2A1695209200DD5C72 /* Elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDDE4A291695209200DD5C72 /* Elephant.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036178A015C84F8300C838E8 /* GSGreenScreenEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGreenScreenEffect.h; sourceTree = "<group>"; };
+		036178A115C84F8300C838E8 /* GSGreenScreenEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGreenScreenEffect.m; sourceTree = "<group>"; };
+		036178A315C84F8300C838E8 /* greenScreen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = greenScreen.fsh; sourceTree = "<group>"; };
+		036178A415C84F8300C838E8 /* greenScreen.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = greenScreen.vsh; sourceTree = "<group>"; };
+		036178A915C8511100C838E8 /* UtilityEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityEffect.h; sourceTree = "<group>"; };
+		036178AA15C8511100C838E8 /* UtilityEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityEffect.m; sourceTree = "<group>"; };
+		03AF043715C84C230061A0D7 /* GreenScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AF043B15C84C230061A0D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03AF043D15C84C230061A0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03AF043F15C84C230061A0D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03AF044315C84C230061A0D7 /* GreenScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreenScreen-Info.plist"; sourceTree = "<group>"; };
+		03AF044515C84C230061A0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03AF044715C84C230061A0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AF044915C84C230061A0D7 /* GreenScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenScreen-Prefix.pch"; sourceTree = "<group>"; };
+		03AF044A15C84C230061A0D7 /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		03AF044B15C84C230061A0D7 /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		03AF044E15C84C230061A0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		03AF045115C84C230061A0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		03AF045315C84C230061A0D7 /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		03AF045415C84C230061A0D7 /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		03AF045B15C84C760061A0D7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		03AF045C15C84C760061A0D7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		03AF045F15C84CD10061A0D7 /* GSVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSVideoProcessor.h; sourceTree = "<group>"; };
+		03AF046015C84CD10061A0D7 /* GSVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSVideoProcessor.m; sourceTree = "<group>"; };
+		03AF046215C84CF70061A0D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		03AF046315C84CF70061A0D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		03AF046615C84D190061A0D7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		03AF046815C84D340061A0D7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		03AF046A15C84D690061A0D7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		03AF046C15C84D8C0061A0D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03AF046E15C84DA20061A0D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DDDE4A291695209200DD5C72 /* Elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elephant.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AF043415C84C230061A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF046F15C84DA20061A0D7 /* MobileCoreServices.framework in Frameworks */,
+				03AF046D15C84D8C0061A0D7 /* QuartzCore.framework in Frameworks */,
+				03AF046B15C84D690061A0D7 /* CoreMedia.framework in Frameworks */,
+				03AF046915C84D340061A0D7 /* AssetsLibrary.framework in Frameworks */,
+				03AF046715C84D190061A0D7 /* CoreVideo.framework in Frameworks */,
+				03AF046415C84CF70061A0D7 /* AVFoundation.framework in Frameworks */,
+				03AF046515C84CF70061A0D7 /* CoreMotion.framework in Frameworks */,
+				03AF045D15C84C760061A0D7 /* GLKit.framework in Frameworks */,
+				03AF045E15C84C760061A0D7 /* OpenGLES.framework in Frameworks */,
+				03AF043C15C84C230061A0D7 /* UIKit.framework in Frameworks */,
+				03AF043E15C84C230061A0D7 /* Foundation.framework in Frameworks */,
+				03AF044015C84C230061A0D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036178A215C84F8300C838E8 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				036178A315C84F8300C838E8 /* greenScreen.fsh */,
+				036178A415C84F8300C838E8 /* greenScreen.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		03AF042C15C84C230061A0D7 = {
+			isa = PBXGroup;
+			children = (
+				03AF044115C84C230061A0D7 /* GreenScreen */,
+				03AF043A15C84C230061A0D7 /* Frameworks */,
+				03AF043815C84C230061A0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AF043815C84C230061A0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AF043715C84C230061A0D7 /* GreenScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AF043A15C84C230061A0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03AF046E15C84DA20061A0D7 /* MobileCoreServices.framework */,
+				03AF046C15C84D8C0061A0D7 /* QuartzCore.framework */,
+				03AF046A15C84D690061A0D7 /* CoreMedia.framework */,
+				03AF046815C84D340061A0D7 /* AssetsLibrary.framework */,
+				03AF046615C84D190061A0D7 /* CoreVideo.framework */,
+				03AF046215C84CF70061A0D7 /* AVFoundation.framework */,
+				03AF046315C84CF70061A0D7 /* CoreMotion.framework */,
+				03AF045B15C84C760061A0D7 /* GLKit.framework */,
+				03AF045C15C84C760061A0D7 /* OpenGLES.framework */,
+				03AF043B15C84C230061A0D7 /* UIKit.framework */,
+				03AF043D15C84C230061A0D7 /* Foundation.framework */,
+				03AF043F15C84C230061A0D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03AF044115C84C230061A0D7 /* GreenScreen */ = {
+			isa = PBXGroup;
+			children = (
+				036178A915C8511100C838E8 /* UtilityEffect.h */,
+				036178AA15C8511100C838E8 /* UtilityEffect.m */,
+				036178A015C84F8300C838E8 /* GSGreenScreenEffect.h */,
+				036178A115C84F8300C838E8 /* GSGreenScreenEffect.m */,
+				036178A215C84F8300C838E8 /* Shaders */,
+				03AF045F15C84CD10061A0D7 /* GSVideoProcessor.h */,
+				03AF046015C84CD10061A0D7 /* GSVideoProcessor.m */,
+				03AF044A15C84C230061A0D7 /* GSAppDelegate.h */,
+				03AF044B15C84C230061A0D7 /* GSAppDelegate.m */,
+				03AF044D15C84C230061A0D7 /* MainStoryboard_iPhone.storyboard */,
+				03AF045015C84C230061A0D7 /* MainStoryboard_iPad.storyboard */,
+				03AF045315C84C230061A0D7 /* GSViewController.h */,
+				03AF045415C84C230061A0D7 /* GSViewController.m */,
+				03AF044215C84C230061A0D7 /* Supporting Files */,
+			);
+			path = GreenScreen;
+			sourceTree = "<group>";
+		};
+		03AF044215C84C230061A0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE4A291695209200DD5C72 /* Elephant.jpg */,
+				03AF044315C84C230061A0D7 /* GreenScreen-Info.plist */,
+				03AF044415C84C230061A0D7 /* InfoPlist.strings */,
+				03AF044715C84C230061A0D7 /* main.m */,
+				03AF044915C84C230061A0D7 /* GreenScreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AF043615C84C230061A0D7 /* GreenScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AF045815C84C230061A0D7 /* Build configuration list for PBXNativeTarget "GreenScreen" */;
+			buildPhases = (
+				03AF043315C84C230061A0D7 /* Sources */,
+				03AF043415C84C230061A0D7 /* Frameworks */,
+				03AF043515C84C230061A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenScreen;
+			productName = GreenScreen;
+			productReference = 03AF043715C84C230061A0D7 /* GreenScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AF042E15C84C230061A0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Erik Buck";
+			};
+			buildConfigurationList = 03AF043115C84C230061A0D7 /* Build configuration list for PBXProject "GreenScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03AF042C15C84C230061A0D7;
+			productRefGroup = 03AF043815C84C230061A0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AF043615C84C230061A0D7 /* GreenScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AF043515C84C230061A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036178A615C84F8300C838E8 /* greenScreen.fsh in Resources */,
+				036178A715C84F8300C838E8 /* greenScreen.vsh in Resources */,
+				03AF044615C84C230061A0D7 /* InfoPlist.strings in Resources */,
+				03AF044F15C84C230061A0D7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				03AF045215C84C230061A0D7 /* MainStoryboard_iPad.storyboard in Resources */,
+				DDDE4A2A1695209200DD5C72 /* Elephant.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AF043315C84C230061A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF044815C84C230061A0D7 /* main.m in Sources */,
+				03AF044C15C84C230061A0D7 /* GSAppDelegate.m in Sources */,
+				03AF045515C84C230061A0D7 /* GSViewController.m in Sources */,
+				03AF046115C84CD10061A0D7 /* GSVideoProcessor.m in Sources */,
+				036178A515C84F8300C838E8 /* GSGreenScreenEffect.m in Sources */,
+				036178AB15C8511100C838E8 /* UtilityEffect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03AF044415C84C230061A0D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AF044515C84C230061A0D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03AF044D15C84C230061A0D7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AF044E15C84C230061A0D7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		03AF045015C84C230061A0D7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AF045115C84C230061A0D7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AF045615C84C230061A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AF045715C84C230061A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AF045915C84C230061A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenScreen/GreenScreen-Prefix.pch";
+				INFOPLIST_FILE = "GreenScreen/GreenScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03AF045A15C84C230061A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreenScreen/GreenScreen-Prefix.pch";
+				INFOPLIST_FILE = "GreenScreen/GreenScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AF043115C84C230061A0D7 /* Build configuration list for PBXProject "GreenScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF045615C84C230061A0D7 /* Debug */,
+				03AF045715C84C230061A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AF045815C84C230061A0D7 /* Build configuration list for PBXNativeTarget "GreenScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF045915C84C230061A0D7 /* Debug */,
+				03AF045A15C84C230061A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AF042E15C84C230061A0D7 /* Project object */;
+}
